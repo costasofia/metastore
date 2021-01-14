@@ -13,13 +13,13 @@ useEffect(() => {
 
     return (
         <div>
+             <h2>Lista de Lojas</h2>
         {data.map((item) => (
             <div class="card-container">
                 <div>
                     <div>
                         <div key={item.idLoja}>
-                            <h2>Lista de Lojas</h2>
-                            <Link>{item.Nome}</Link>
+                            <Link to={`/loja/${item.idLoja}`} > {item.Nome} </Link>
                         </div>
                     </div>
                 </div>

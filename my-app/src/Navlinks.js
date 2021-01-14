@@ -9,6 +9,7 @@ function Navlinks(){
                <div className="navlinks__inner">
                    <Link to={`/listaLoja`}>Lojas</Link>
                    <Link to={`/listaCategoria`}>Categorias</Link>
+                   <Link to={`/adicionaProduto`}>Adiciona Produto</Link>
                    <Link to={`/login`}>Comprar</Link>
                    <Link to={`/registar`}>Registar</Link>
                </div>

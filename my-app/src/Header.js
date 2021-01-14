@@ -20,7 +20,7 @@ function Header() {
                 <SearchIcon className="header__searchIcon" />
             </div>
             <div className="header__nav">
-                <Link to="/produto" className="header__link">
+                <Link to="/login" className="header__link">
                     <div className="header__option">
                         <AiOutlineUser></AiOutlineUser>
                     </div>
