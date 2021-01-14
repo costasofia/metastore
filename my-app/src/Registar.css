@@ -1,0 +1,42 @@
+.registar{
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.registar__logo{
+    width: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.registar__container{
+    width: 300px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 10px solid black;
+}
+.registar__signInButton{
+    color: red;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: column;
+    
+}
+.registar__register{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;  
+  
+}
